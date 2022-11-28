@@ -6,8 +6,8 @@
 ### Présentation de la cliente
 
 Marianne Doucet est une artiste depuis plus de ... ans. Elle crée d'abord des sculptures 
-puis se lance dans l'écriture de livre et de chansons. Elle est aussi chanteuse, composititrice et interprète. 
-Elle réalise aussi des spectacles de chansons, fait des expositions. 
+puis se lance dans l'écriture de livres et de chansons. Elle est aussi chanteuse, composititrice et interprète. 
+Elle réalise des spectacles de chansons, fait des expositions. 
 
 ### Les objectifs du site
 
@@ -24,7 +24,7 @@ les particuliers pour voir le travail de l'artiste et ses prochaines représenta
 
 ### Périmètre du projet
 
-Le site n'a pas besoin d'être en multilingue. Et sera évidemment adapté pour les supports mobiles et tablettes.
+Le site sera mutililingue. Les langues seront le français, l'anglais. Et sera évidemment adapté pour les supports mobiles et tablettes.
 
 ### Description de l'existant
 
@@ -63,27 +63,37 @@ Les liens des designs : (étape à réaliser après les wireframes)
 ## Description fonctionnelle et technique
 ### Arborescence du site
 
-Le site présentera différentes pages.
+Le site présente différentes pages.
 
 Chaque page contient une en-tête et un pied de page. 
 Dans l'en-tête, on retrouve un logo ainsi qu'un menu de navigation regroupant toutes les pages.
-Dans le pied de page, on retrouve de nouveau le logo mais de taille réduite, un lien vers la page Facebook de l'artiste pour plus de visibilité.
+Dans le pied de page, on retrouve de nouveau le logo mais de taille réduite, un lien vers la page Facebook de l'artiste pour plus de visibilité ainsi
+qu'un lien vers les mentions légales.
 
-La première page est la **page d'accueil**. Elle regroupe différentes sections présentent sur d'autres pages du site.
-Par exemple, elle reprend la prochaine exposition alors que cette informations se trouve aussi dans la page dédiée aux activités.
+La première page est la ***page d'accueil***. 
+Cette page regroupe différentes informations. On peut y voir une section "pub" qui indique quand se déroulera la prochaine exposition
+de la cliente. Mais aussi quand et où se fera son prochain spectacle ainsi que la date de son prochain atelier d'écriture.
+Des liens vers les pages détaillant ceux-ci sont disponibles. Ils permettent une navigation entre les pages. 
+Une autre petite section parlant de l'artiste se situe en dessous de la section "pub". 
+Elle permet d'introduire la vie de l'artiste très brièvement car un bouton menant à la page à propos est disponible pour en savoir plus.
+
+La page ***spectacle*** regroupe tout les spectacles de l'artiste. On retrouve le titre du spectacle, une description, 
+la durée, les thèmes exploités durant le spectacle.
+En-dessous de cette section, on retrouve un formulaire de réservation de spectacle.
+Dans ce formulaire, on retrouve d'abord un champ de sélection "je suis". Car les spectacles sont disponibles pour les écoles,
+les centres culturels, un particulier ou autre. Ensuite, nom, prénom, adresse mail, téléphone, message.
+Ensuite, il y a un autre champ de sélection avec différents choix: les noms des spectacles disponibles ou spectacle personnalisé. 
+Car il est aussi possible de réserver un spectacle "à la demande". L'artiste crée un spectacle sur-mesure
+pour le jour-j en fonction du thème demandé.
 
 
-La page **spectacle** regroupe tout les spectacles de l'artiste. On retrouve le titre du spectacle, une description, 
-la durée, les thèmes exploités durant le spectacle. 
-En-dessous de cette section, on retrouve un lien vers la page de contact. Il permettera à l'utilisateur de commander un spectacle pour une représentation dans sa commune ou dans une école
-
-
-La page **à propos** parle de l'artiste Marianne, ses débuts, son atelier, son processus de création. 
+La page ***à propos*** parle de l'artiste Marianne, ses débuts, son atelier, son processus de création. Un paragraphe explique 
+aussi que la cliente contribue à la culture artistique de la ville de Verviers car plusieurs de ses oeuvres y sont exposées. 
 Des photos et/ou des vidéos sont présentes pour illustrer les contenus.
 
 
-Dans la page des **oeuvres**, on retrouve une liste de toutes les créations de l'artiste: sculptures, livre, cd. 
-On peut voir une image de l'oeuvre, son titre, ses matériaux, le thème abordé, son poids, sa taille. 
+Dans la page des ***oeuvres***, on retrouve une liste de toutes les créations de l'artiste: sculptures, livre, cd. 
+On peut voir une image de l'oeuvre, son titre, ses matériaux, le thème abordé, sa taille. 
 Quand on clique sur une oeuvre, l'image apparait en plus grand et les informations la concernant sont affichées sur la droite.
 Une fois l'image en grand écran, il est possible de passer à l'oeuvre suivante et précédente grâce à un slider, il suffit de cliquer sur la flèche. 
 En fonction du nombre d'oeuvre à montrer, une pagination est prévue.
@@ -91,43 +101,30 @@ En fonction du nombre d'oeuvre à montrer, une pagination est prévue.
 Ensuite, afin de faciliter la recherche et l'expérience de l'utilisateur, des filtres seront prévus. 
 Il sera possible de trier la liste des oeuvres par catégories. C'est-à-dire par sculptures, livre ou cd.
 
-Les oeuvres sont affichées par ordre chronologique.
+Sur cette page, il est possible aussi de commander une oeuvre grâce à un formulaire. On retrouve les champs suivants:
+nom, prénom, adresse mail, téléphone, thème abordé pour la sculpture, matériaux désirés, taille souhaitée.
 
 
-Dans la page dédiée aux **chansons**, on retrouverait une liste avec les titres des chansons, une indication du titre de l'album.
-Un petit bouton "play" se trouve devant chaque titre de chanson, il indique qu'il est possible d'écouter ses chansons.
-Une fois une chanson lancée, on peut faire pause, avancer dans la chanson, ...
+Dans la page dédiée aux ***chansons***, on retrouverait une liste avec les chansons du cd, une indication du titre de l'album.
+Un petit bouton "play" se trouve devant chaque titre de chanson, il indique qu'il est possible d'en écouter.
+Une fois une chanson lancée, il est possible de la mettre sur pause en recliquant sur le bouton play.
 
-Sur cette page, on retrouve aussi une section en bas de page qui indique qu'un cd contenant toutes les chansons est disponible
+Sur cette page, on retrouve aussi une section en bas de page qui indique que le cd contenant toutes les chansons est disponible
 et qu'il est possible de venir l'acheter sur place. 
 
 Une section de contact est disponible tout en bas de page. Il permet à l'utilisateur d'être redirigé après avoir visité la page des chansons. 
-Cela facilite la navigation dans le site. Cette section sera (peut-être) présente sur chaque fin de page.
+Cela facilite la navigation dans le site. 
 
 
-Dans la page **atelier d'écriture**, on retrouve une explication des ateliers d'écriture, ce qu'on fait, à qui ils s'adressent,...
-On peut voir quand est organisé le prochain atelier d'écriture, on retrouve la date, l'heure, l'endroit, le prix, le nombre de place restant.
+Dans la page ***atelier d'écriture***, on retrouve une explication des ateliers d'écriture, ce qu'on y fait, à qui ils s'adressent,...
+On peut voir quand est organisé le prochain atelier d'écriture, on retrouve la date, l'heure, l'endroit, le prix, le nombre de place restante.
 Juste en dessous, une petite phrase d'accroche pour faire venir le maximum de personne à cet atelier, 
 suivi d'un formulaire d'inscription. Il faut inscrire le nom, prénom, adresse mail, numéro de téléphone, le nombre de réservation à l'atelier, un message.
 
 
-(Si il n'y a qu'un spectacle à la fois, alors on peut faire un formulaire commun avec celui contact normal.
-Si on peut réserver plusieurs spectacles, alors il faudra faire 2 formulaires séparé)
+La page de ***contact*** contient un formulaire et les moyens de contact: adresse mail, numéro de téléphone.
+Le formulaire est simple: nom, prénom, adresse mail, numéro de téléphone, message.
 
-La page de **contact** contient un formulaire. Question de facilité, ce formulaire regroupe deux raison de contact: simple contact ou réservation d'un spectacle.
-Ce choix se faire grâce à un champ spécifique qui permet de sélectionner la raison voulue.
-Le formulaire est le même dans les deux cas
-
-
-accueil + indication prochaine expo
-a propos /
-ses oeuvres -> filtre sculpture/livre => formulaire commander une oeuvre sur un thème
-spectacles /
-chansons + lecteur /
-atelier d'écriture => inscription /
-contact
-
-regrouper tout les formulaire?
 
 ### Description fonctionnelle
 ### Informations relatives aux contenus
