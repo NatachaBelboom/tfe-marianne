@@ -5,7 +5,7 @@
 ## Présentation de l'ensemble du projet
 ### Présentation de la cliente
 
-Marianne Doucet est une artiste depuis plus de ... ans. Elle crée d'abord des sculptures 
+Marianne Doucet est une artiste depuis plus de 30 ans. Elle crée d'abord des sculptures 
 puis se lance dans l'écriture de livres et de chansons. Elle est aussi chanteuse, composititrice et interprète. 
 Elle réalise des spectacles de chansons, fait des expositions. 
 
