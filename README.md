@@ -38,7 +38,7 @@ Le lien du moodboard : (à faire)
 
 Le design de ce site sera très épuré. La couleur dominante est le blanc, 
 il y aura quelques touches de couleurs pour mettre l'accent sur certaines zones, certaines informations plus importantes
-mais cela restera dans le thème de la douceur, 
+mais cela restera dans le thème de la douceur.
 
 (Une palette de couleur reste à définir)
 
@@ -138,5 +138,3 @@ Le site sera crée avec WordPress. Il permet une bonne gestion des contenus et e
 Le site doit être compatible avec tous les navigateurs.
 
 Le client doit prendre en charge l'hébergement ainsi que le nom de domaine.
-
-## Persona???
